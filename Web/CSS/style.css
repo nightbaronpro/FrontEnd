@@ -41,12 +41,18 @@ p {
 .red-box{
     background-color: crimson;
     color: #fff;
-    padding: 20px;
-    margin: -15px;
+    padding: 20px 40px 20px 40px; /*ky hieu theo thu tu chieu kim dong ho: top, right, bottom, left.*/
+    margin: 20px 40px 20px 40px;
 }
 .blue-box{
     background-color: blue;
     color: #fff;
-    padding: 20px;
-    margin: -15px;
+    padding: 40px 20px 20px 40px; 
+    margin: 40px 20px 20px 40px;
+}
+[type='radio']{
+    margin: 20px 0px 20px 0px;
+}
+[type='checkbox']{
+    margin: 10px 0px 15px 0px;
 }
