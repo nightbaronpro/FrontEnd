@@ -3,27 +3,43 @@
     <head>
         <meta charset="utf-8">
         <title>test</title>
+        <link href="/Web/CSS/style.css" rel="stylesheet" type="text/css">
     </head>
     <body>
-        <div itemscope>
-            <p>My name is <span itemprop="name">Tuan</span></p>
-        </div>
-        <footer>
-            <div>
-                <p>My name is <span itemprop="name">Tram</span></p>
-            </div>
-            <div itemscope>
-                <section itemscope itemtype="http://data-vocabulary.org/Person">
-                    <h1 itemprop="name">TuanLinux</h1>
+        <h2 class="red-text">CatPhotoApp</h2>
+        <main>
+            <p class="red-text">Click here to view more <a href="#">cat photos</a>.</p>
 
-                    <p>
-                        <img itemprop="photo"
-                            src="http://www.tutorialspoint.com/green/images/logo.png">
-                    </p>
-                
-                    <a itemprop="url" href="#">Site</a>
-                </section>
+                <a href="#"><img class="smaller-image thick-green-border" src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back."></a>
+
+            <div class="silver-background">
+                <p>Things cats love:</p>
+                    <ul>
+                        <li>cat nip</li>
+                        <li>laser pointers</li>
+                        <li>lasagna</li>
+                    </ul>
+                <p>Top 3 things cats hate:</p>
+                    <ol>
+                        <li>flea treatment</li>
+                        <li>thunder</li>
+                        <li>other cats</li>
+                    </ol>
             </div>
-        </footer>
+
+        <form id="cat-photo-form" action="/submit-cat-photo">
+            <label><input type="radio" name="indoor-outdoor" checked> Indoor</label>
+            <label><input type="radio" name="indoor-outdoor"> Outdoor</label><br>
+            <label><input type="checkbox" name="personality" checked> Loving</label>
+            <label><input type="checkbox" name="personality"> Lazy</label>
+            <label><input type="checkbox" name="personality"> Energetic</label><br>
+            <input type="text" placeholder="cat photo URL" required>
+            <button type="submit">Submit</button>
+            </form>
+        </main>
+        <div class="box yellow-box">
+            <h5 class="box red-box">padding</h5>
+            <h5 class="box blue-box">padding</h5>
+        </div>
     </body>
 </html>

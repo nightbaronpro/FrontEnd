@@ -1,0 +1,52 @@
+.red-text {
+    color: red;
+}
+h2 {
+    font-family: Lobster, monospace;
+}  
+p {
+    font-size: 16px;
+    font-family: monospace;
+}  
+.thick-green-border {
+    border-color: green;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 50%;
+}  
+.smaller-image {
+    width: 100px;
+}
+.silver-background{
+    background-color: silver;
+}
+#cat-photo-form{
+    background-color: green;
+}
+.injected-text{
+    margin-bottom: -25px;
+    text-align: center;
+    color: red;
+}
+.box {
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    text-align: center;
+}
+.yellow-box{
+    background-color: yellow;
+    padding: 10px; /*padding kiem soat luong kgian giua noi dung va duong vien cua phan tu*/
+}
+.red-box{
+    background-color: crimson;
+    color: #fff;
+    padding: 20px;
+    margin: -15px;
+}
+.blue-box{
+    background-color: blue;
+    color: #fff;
+    padding: 20px;
+    margin: -15px;
+}
