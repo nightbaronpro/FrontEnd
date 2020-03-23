@@ -1,5 +1,21 @@
+body{
+    background-color: #c6faf1;
+    font-family: sans-serif;
+}
 .red-text {
     color: red;
+}
+/*neu blue-text nam o tren pink-text thi khi add vao thuoc tinh class, no se ra mau blue
+va nguoc lai neu pink-text nam o tren thi khi add vao thuoc tinh class, no se ra mau pink*/
+.blue-text{
+    color:blue !important; /*neu dat !important trong nay, thi no se 100% ra mau xanh*/
+}
+.pink-text{
+    color:pink;
+}
+/*neu dat thuoc tinh id trong tag bat ky, thi khi ta set-up id voi mau nao, no se hien ra mau do*/
+#orange-text{
+    color: orange;
 }
 h2 {
     font-family: Lobster, monospace;
@@ -47,8 +63,13 @@ p {
 .blue-box{
     background-color: blue;
     color: #fff;
-    padding: 40px 20px 20px 40px; 
-    margin: 40px 20px 20px 40px;
+    padding: 1.5em;
+    margin: 20px 40px 20px 40px;
+}
+.green-box {
+    background-color: green;
+    margin: 20px 40px 20px 40px;
+    padding: 1.5em;
 }
 [type='radio']{
     margin: 20px 0px 20px 0px;
