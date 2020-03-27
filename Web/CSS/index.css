@@ -1,0 +1,94 @@
+/*link luc dau chua bam vao hay di chuot vao*/
+a:link {
+    color: #000000
+}
+/*khi da bam vao link roi*/
+a:visited{
+    color: #006600;
+}
+/*khi di chuot vao nhung k bam vao*/
+a:hover{
+    color: #FFCC00;
+}
+/*khi bam vao*/
+a:active{
+    color: #FF00CC;
+}
+table.one{
+    border-collapse: separate; /*neu dung collapse thi 2 o se dinh vao*/
+    width: 400px;
+    border-spacing: 10px;
+}
+table.two{
+    border-collapse: separate;
+    width: 400px;
+    border-spacing: 10px 50px; /*2 gia tri o day la o vuong o trong va o ngoai*/
+}
+caption{
+    display: table-caption;
+    text-align: center;
+}
+h1.header{
+    text-align: center;
+    color: #ff0000;
+}
+h1.header1{
+    text-align: center;
+    color: #009900;
+}
+h1.header2{
+    text-align: center;
+    color: #0000cc;
+}
+h1.header3{
+    text-align: center;
+    color: aqua;
+}
+td.a{
+    border-style: dotted;
+    border-width: 3px;
+    border-color: #000000;
+    padding: 10px;
+}
+td.b{
+    border-style: solid;
+    border-width: 3px;
+    border-color: #333333;
+    padding: 10px;
+}
+/*neu chi su dung 1 gia tri*/
+table.example{border-spacing: 10px;}
+/*neu dung 2 gia tri*/
+table.example{border-spacing: 10px 15px;}
+
+table.top{caption-side: top}
+table.bottom{caption-side: bottom}
+table.left{caption-side: left}
+table.right{caption-side: right}
+
+table.empty{
+    width: 350px;
+    border-collapse: separate;
+    empty-cells: hide;
+}
+td.empty{
+    padding: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #999999;
+}
+
+p.ex1{
+    border: 1px solid;
+    border-bottom-color: #009900;
+    border-top-color: #ff0000;
+    border-left-color: #330000;
+    border-right-color: #0000cc;
+}
+p.ex2{
+    border: 1px solid;
+    border-color: #009900;
+}
+body{
+    background-color: aliceblue;
+}

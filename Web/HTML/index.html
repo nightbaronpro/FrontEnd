@@ -3,6 +3,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html"; charset="utf-8"/>
         <title>Example</title>
+        <link href="" rel="stylesheet" type="text/css">
         <script src="/javascript/mordernizr.js"></script>
         <style type="text/css">
             #boxA, #boxB{
@@ -19,7 +20,6 @@
                 ev.dataTransfer.effectAllowed = 'move';
                 ev.dataTransfer.setData("Text", ev.target.getAttribute('id'));
                 ev.dataTransfer.setDragImage(ev.target,0,0);
-
                 return true;
             }
             function dragEnter(ev){

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Tutorialspoint</title>
+        <link href="/Web/CSS/index.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <p style="text-shadow: 4px 4px 8px aquamarine;">
+            If your browser supports the CSS text-shadow property, this text will 
+            have a blue shadow.
+        </p>
+        <img style="border: 1px solid red; height: 100px;" src="/Web/img/logo.png"/>
+        <br/>
+        <!--3px o phan border la xet do dam. cua border-->
+        <img style="border: 3px dashed red; height: 50%; width: 50%;" src="/Web/img/logo.png"/>
+        <br/>
+        <!--thuoc tinh -moz-opacity la xet do mo` cua img-->
+        <img style="border: 1px solid red;" -moz-opacity:0.4; filter: alpha(opacity=40); src="/Web/img/logo.png"/>
+        <br>
+        <br>
+        <a href="https://www.youtube.com/watch?v=T0sHaz4H9MQ">Vung Ky uc-Chillies</a>
+        <h1 class="header">
+            Example about Collapse and Separate Border
+        </h1>
+        <table class="one" border="1">
+            <caption>Collapse Border Example</caption>
+            <tr><td class="a">Cell A Collapse Example</td></tr> 
+            <tr><td class="b">Cell B Collapse Example</td></tr>
+            <!--neu dung 2 tag tr rieng biet thi se hien thi 2 hop o 2 hang-->
+        </table>
+        <br/>
+        <br/>
+        <table class="two" border="1"> <!--border o day la xet ve do dam nhat cua table-->
+            <caption>Separate Border Example</caption>
+            <tr>
+                <td class="a">Cell A Separate Example</td>
+                <td class="b">Cell B Separate Example</td>
+            </tr>
+            <!--neu dung chung 1 tag tr thi 2 hop nam canh nhau-->
+        </table>
+        <br/>
+        <br/>
+        <h1 class="header1">
+            The caption-side
+        </h1>
+        <table style="width: 400px; border: 1px solid black;">
+            <caption class="top">
+                This caption will appear at the top.
+            </caption>
+            <tr>
+                <td>Cell A</td>
+                <td>Cell B</td>
+            </tr>
+        </table>
+        <br/>
+        <table style="width: 400px; border: 1px solid black;">
+            <caption class="bottom">
+                This caption will appear at the bottom.
+            </caption>
+            <tr><td>Cell A</td></tr>
+            <tr><td>Cell B</td></tr>
+        </table>
+        <br/>
+        <table style="width: 400px; border: 1px solid black;">
+            <caption class="left">
+                This caption will appear at the left.
+            </caption>
+            <tr>
+                <td>Cell A</td>
+                <td>Cell B</td>
+            </tr>
+        </table>
+        <table style="width: 400px; border: 1px solid black;">
+            <caption class="right">
+                This caption will appear at the right.
+            </caption>
+            <tr><td>Cell A</td></tr>
+            <tr><td>Cell B</td></tr>
+        </table>
+        <br/>
+        <br/>
+        <h1 class="header2">
+            Empty-cells
+        </h1>
+        <table class="empty">
+            <tr>
+                <th></th>
+                <th>Title one</th>
+                <th>Title two</th>
+            </tr>
+            <tr>
+                <th>Row title</th>
+                <td class="empty">value</td>
+                <td class="empty">value</td>
+            </tr>
+            <tr>
+                <th>Row title</th>
+                <td class="empty">value</td>
+                <td class="empty"></td>
+            </tr>
+        </table>
+        <br/>
+        <br/>
+        <h1 class="header3">
+            Border Example
+        </h1>
+        <p class="ex1">
+            This example is showing all borders in different collors.
+        </p>
+        <p class="ex2">
+            This examlple is showing all border in green color only.
+        </p>
+        <br/>
+        <br/>
+        <!--Characters-->
+        <ul style="list-style-type: circle;">
+            <p style="color: blueviolet;">Subjects</p>
+            <li>Maths</li>
+            <li>Social Science</li>
+            <li>Physics</li>
+        </ul>
+        <ul style="list-style-type: square;">
+            <p style="color: blueviolet;">Subjects</p>
+            <li>Maths</li>
+            <li>Social Science</li>
+            <li>Physics</li>
+        </ul>
+        <!--number-->
+        <ol style="list-style-type: decimal;">
+            <p style="color: blueviolet;">Subjects</p>
+            <li>Maths</li>
+            <li>Social Science</li>
+            <li>Physics</li>
+        </ol>
+        <ol>
+            <p style="color: blueviolet;">Subjects</p>
+            <li>Maths</li>
+            <li>Social Science</li>
+            <li>Physics</li>
+        </ol>
+        <ol style="list-style-type: lower-alpha;">
+            <p style="color: blueviolet;">Subjects</p>
+            <li>Maths</li>
+            <li>Social Science</li>
+            <li>Physics</li>
+        </ol>
+        <ol style="list-style-type: lower-roman;">
+            <p style="color: blueviolet;">Subjects</p>
+            <li>Maths</li>
+            <li>Social Science</li>
+            <li>Physics</li>
+        </ol>
+    </body>
+</html>
