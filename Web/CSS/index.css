@@ -1,3 +1,16 @@
+@media print{
+    body{
+        font-size: 10pt;
+    }
+}
+@media screen{
+    body{font-size: 12pt;}
+}
+@page{
+    size: auto; /*auto la gia tri ban dau.*/
+    size: 8.5in 11in; /*2 gia tri theo thu tu la chieu rong va chieu cao.*/
+    margin: 10%;
+}
 /*link luc dau chua bam vao hay di chuot vao*/
 a:link {
     color: #000000
@@ -43,6 +56,14 @@ h1.header2{
 h1.header3{
     text-align: center;
     color: aqua;
+}
+h1.header4{
+    text-align: center;
+    color: #000000;
+}
+h1.header5{
+    text-align: center;
+    color: gold;
 }
 td.a{
     border-style: dotted;
@@ -91,4 +112,25 @@ p.ex2{
 }
 body{
     background-color: aliceblue;
+}
+.scroll{
+    display: block;
+    border: 1px solid red;
+    padding: 5px;
+    margin-top: 5px;
+    width: 300px;
+    height: 50px;
+    overflow: scroll;
+}
+.auto{
+    display: block;
+    border: 1px solid red;
+    padding: 5px;
+    margin-top: 5px;
+    width: 300px;
+    height: 50px;
+    overflow: auto;
+}
+div > p:first-child{
+    text-indent: 25px;
 }
